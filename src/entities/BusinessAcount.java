@@ -15,7 +15,8 @@ public class BusinessAcount extends Account {
 	
 	public void loam(double amount) {
 		if (amount <= loamLimit) {
-			deposit(amount);
+			//deposit(amount);
+			balance += amount - 10.0;
 		}
-	}
+	}	
 }
